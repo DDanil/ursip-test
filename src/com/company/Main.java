@@ -12,7 +12,7 @@ public class Main {
     }
 
     private static String generateNum(final List<Integer> numbers) {
-        // Получим отсортированный не
+        // Получим отсортированный список без повторений
         final List<Integer> sortedUnrepeatedNumbers = numbers
                 .stream()
                 .distinct()
